@@ -121,10 +121,12 @@ font-family: 'Raleway', sans-serif;
         background-size: 100%;
         background-repeat: repeat;
         max-width: 100%;
-        height: 250vh;
     }
     .manin__introduccion{
         text-justify: auto;
+    }
+    .imagbeneficio{
+        max-width: 100%;
     }
 
     .main__parrafo{
@@ -159,6 +161,9 @@ font-family: 'Raleway', sans-serif;
             background-repeat: repeat;
             background-size: 100%;
             width: 100%;
+        }
+        .imagpopulares{ 
+            max-width: 100%;
         }
         .main__tipos{
             text-transform: uppercase;
