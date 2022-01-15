@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*---------------------BODY-------------------*/
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+font-family: 'Patua One', cursive;
+font-family: 'Raleway', sans-serif;
+}
+
+
+/*---------------------HEADER-----------------*/
+.header1__titulo1{
+    color: rgb(255, 255, 255);
+    font-size: 7vw;
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.header1{
+    background-image: url(../imag/agua.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header1{ 
+    display: grid;
+    grid-template-rows: subgrid;
+}
+/*---------------------NAVBAR-----------------*/
+.header1__navbar ul{
+    padding:1rem;
+    list-style-type:none;
+}
+.header1__navbar li{
+    display: inline-block;
+}
+.header1__navbar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: blanchedalmond;
+    font-size: 16px;
+    background-color: rgb(139, 21, 21);
+    padding: 1.1rem;
+}
+/*
+.lista__menu {
+    display: flex;
+}
+*/
+.header1__titulo2{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding: 2rem;}
+
+/*-----------------SECTION----------------*/
+.section__fondo1{
+    background-image:url(../imag/crsff5.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+    max-width: 100%;
+}
+/*-----------------video-------------------*/
+.iframe__video{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 85vw;
+    height: 85vh;
+    margin-left: 5vw;
+    padding-top: 2vh;
+}
+/*----------------ARTICLE-----------------*/
+
+.article{
+    color: white;
+}
+.article__header{ 
+    padding: 2rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    text-align: justify;
+}
+.article__header--logramos{
+    padding: 2rem;
+    list-style-type: circle;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    text-align: justify;}
+
+    /*-------------------footer-------------*/
+    .footer{
+        margin-top: 0;
+        color: white;
+    }
+    .foter__menu{
+        display: table-column;
+    }
+    .footer__menu{
+        background-color: rgb(139,.21,.21);
+        list-style-type: circle;
+        text-align: left;
+        padding: 2rem;
+        font-size: 1.3rem;
+    }
+    .footer__creditos{
+        background-color: rgb(139,.21,.21);
+        text-align: left;
+        padding: 0.9rem;
+    }
+/*---------------------------------------------------------------BENEFICIOS----------------------------------------------------------------------------------*/
+
+/*-------------------------MAIN------------------*/
+
+    .main{
+        background-image: url(../imag/benef3.jpg);
+        background-size: 100%;
+        background-repeat: repeat;
+        max-width: 100%;
+        height: 250vh;
+    }
+    .manin__introduccion{
+        text-justify: auto;
+    }
+
+    .main__parrafo{
+        text-align: justify;
+        line-height: 1.3rem;
+        font-size: 1rem;
+        padding: 1rem;
+
+    }
+    .main__titulo{
+        text-align: justify;
+
+    }
+    .main__subtitulos{
+        margin: 1.5rem;
+        padding: 1rem;
+        text-transform: uppercase;
+    }
+    .main__beneficios{
+        padding: 2rem;
+        list-style: circle;
+        font-size: 1rem;
+        line-height: 2rem;
+        text-align: justify;
+        }
+        /*---------------------------POPULARES---------------*/
+        .main__entrenos{
+            text-align: center;
+        }
+        .main__popular{
+            background-image: url(../imag/popu2.jpg);
+            background-repeat: repeat;
+            background-size: 100%;
+            width: 100%;
+        }
+        .main__tipos{
+            text-transform: uppercase;
+            padding: 2rem;
+            list-style: circle;
+            font-size: 1rem;
+            line-height: 2rem;
+            text-align: justify;
+        }
+        .main__fuerza{
+            text-transform: uppercase;
+            padding: 2rem;
+            list-style: circle;
+            font-size: 1rem;
+            line-height: 2rem;
+            text-align: justify;
+        }
+        .main__textos{
+            color: rgb(0, 0, 0);
+            padding: 1rem;
+            font-size: medium;
+        }
+        /*---------------------------------SEDENTARISMO-------------------*/
+.main__sedentarismo{
+    background-image: url(../imag/send1.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+    width: 100%;
+}
+.main__inactivo{
+    padding: 2rem;
+    list-style: circle;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: justify;
+
+
+}
+/*-------------------CONTACTO------------------------------*/
+.main__contacto{
+    background-image: url(../imag/puños.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+    width: 100%;
+}
+/*------------------------------media query-----------------*/
+@media screen and (max-width: 991px){
+    .lista__menu{
+        display: flex !important;
+        flex-direction: column;
+    }
+    
+    
+}
