@@ -32,6 +32,9 @@ font-family: 'Raleway', sans-serif;
     grid-template-rows: subgrid;
 }
 /*---------------------NAVBAR-----------------*/
+.lista__menu a:link{
+    color: black;
+}
 .header1__navbar ul{
     padding:1rem;
     list-style-type:none;
