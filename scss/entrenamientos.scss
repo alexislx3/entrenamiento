@@ -1,0 +1,30 @@
+/***********************************************************entrenamientos****************************************************************************/
+
+.carousel-inner {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-block-end: 1rem;
+  }
+  .entrenamientos {
+    background-color: gray;
+    justify-content: space-between;
+  }
+  .collapsed {
+    background-color: gray;
+  }
+  .btn {
+    display: table !important;
+  }
+  .btn-primary {
+    color: white;
+    background-color: orangered !important;
+    border-color: white !important;
+  }
+  .card {
+    background-color: lightslategray !important;
+  }
+  

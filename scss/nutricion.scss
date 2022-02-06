@@ -1,0 +1,29 @@
+/***********************************************************nutricion****************************************************************************/
+.nutricion {
+  width: 100%;
+  display: flex;
+  background-color: tan;
+}
+
+.card1 {
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 1px;
+  overflow: hidden;
+  background: lightslategrey;
+  img {
+    width: 100%;
+    height: 280px;
+  }
+}
+
+.contenidon {
+  h3 {
+    text-align: center;
+    p {
+      text-align: justify;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
