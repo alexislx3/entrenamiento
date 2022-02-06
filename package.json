@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build-css": "node-sass scss/estilos.scss css/estilo.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,9 @@
   "homepage": "https://github.com/alexislx3/entrenamiento#readme",
   "dependencies": {
     "bootstrap": "^5.1.3"
+  },
+  "devDependencies": {
+     "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
   }
 }

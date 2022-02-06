@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/***********************************************************barra de navegacion index***********************************/
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0; }
+
+.navtexto {
+  font-size: 30px;
+  /*   margin-bottom: -8rem;*/
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: white; }
+
+/***********************************************************entrenamientos****************************************************************************/
+.carousel-inner {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-block-end: 1rem; }
+
+.entrenamientos {
+  background-color: gray;
+  justify-content: space-between; }
+
+.collapsed {
+  background-color: gray; }
+
+.btn {
+  display: table !important; }
+
+.btn-primary {
+  color: white;
+  background-color: orangered !important;
+  border-color: white !important; }
+
+.card {
+  background-color: lightslategray !important; }
+
+/***********************************************************barra de navegacion***********************************************************************/
+.logo {
+  position: absolute;
+  padding: 40px 50px; }
+
+.menu1 {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding: 0;
+  width: 100%; }
+
+.menunav1 {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0rem;
+  background-color: #292929;
+  width: 100%;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center; }
+  .menunav1 li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 50px 16px; }
+    .menunav1 li a:hover {
+      background-color: orangered; }
+    .menunav1 li a .fas {
+      width: 5rem;
+      font-size: 25px; }
+
+/***********************************************************Home****************************************************************************/
+.header {
+  display: flex;
+  background: url(../imag/crsff5.jpg);
+  background-size: 100%;
+  padding: 0;
+  margin: 0; }
+
+.headeri {
+  background: url(../imag/fondo3.jpg);
+  background-size: 100%; }
+
+.navtexto p {
+  color: orange;
+  display: flex;
+  margin: 10rem; }
+
+/*------------------------------media query-----------------*/
+@media screen and (max-width: 991px) {
+  .menunav1 {
+    display: flex;
+    flex-direction: column; }
+  .nutricion {
+    display: flex;
+    flex-direction: column; }
+  .menunav {
+    display: flex;
+    flex-direction: column; }
+  .servicios ul {
+    display: flex;
+    flex-direction: column;
+    margin: 8rem;
+    line-height: 2; } }
+
+/***********************************************************nutricion****************************************************************************/
+.nutricion {
+  width: 100%;
+  display: flex;
+  background-color: tan; }
+
+.card1 {
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 1px;
+  overflow: hidden;
+  background: lightslategrey; }
+  .card1 img {
+    width: 100%;
+    height: 280px; }
+
+.contenidon h3 {
+  text-align: center; }
+  .contenidon h3 p {
+    text-align: justify;
+    margin: 0;
+    padding: 0; }
+
+/***********************************************************pie de pag***********************************/
+.pie {
+  width: 100%;
+  margin-top: 50px; }
+
+.redes {
+  padding: 15px 10px;
+  font-size: 35px;
+  background-color: #505050;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  transition: all, 2s ease; }
+  .redes a {
+    color: orangered; }
+
+.facebook:hover {
+  transform: scale(1.3, 1.3);
+  color: #355fd1; }
+
+.instagram:hover {
+  transform: scale(1.3, 1.3);
+  color: #bc2a8d; }
+
+.twitter:hover {
+  transform: scale(1.3, 1.3);
+  color: #24e1fa; }
+
+.youtube:hover {
+  transform: scale(1.3, 1.3);
+  color: #c4302b; }
+
+.textopie {
+  text-align: center;
+  color: white;
+  background-color: #505050;
+  margin: 0rem;
+  font-size: 10px; }
+
+/*********************************************************** servicios***********************************/
+.servicios1 {
+  background: url(../imag/servicios2.jpg);
+  background-size: 100%;
+  height: 100%;
+  width: 100%; }
+
+.servicios {
+  display: flex;
+  align-content: center;
+  justify-content: space-around; }
+  .servicios ul {
+    align-items: center;
+    background-color: lightslategray;
+    margin: 12rem;
+    text-transform: uppercase;
+    line-height: 3; }
+
+/***********************************************************Contacto***********************************/
+.main__contacto {
+  display: flex;
+  justify-content: center;
+  background-image: url(../imag/puños.jpg);
+  background-repeat: repeat;
+  background-size: 100%;
+  width: 100%; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }

@@ -1,0 +1,25 @@
+/*------------------------------media query-----------------*/
+
+@media screen and (max-width: 991px) {
+  .menunav1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .nutricion {
+    display: flex;
+    flex-direction: column;
+  }
+  .menunav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .servicios {
+    ul {
+      display: flex;
+      flex-direction: column;
+      margin: 8rem;
+      line-height: 2;
+    }
+  }
+}
