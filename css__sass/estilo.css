@@ -9,7 +9,7 @@
 }
 .header{
     display: flex;
-    background: url(./imag/crsff5.jpg);
+    background: url(../imag/crsff5.jpg);
     background-size: 100%;
     padding: 0;
     margin: 0;
@@ -101,7 +101,7 @@
     background-color: orangered;
 }
 /***********************************************************Home****************************************************************************/
-.headeri{background: url(./imag/fondo3.jpg);
+.headeri{background: url(../imag/fondo3.jpg);
     background-size: 100%;
 }
 
@@ -170,7 +170,7 @@
 
 /*********************************************************** servicios***********************************/
 .servicios1{
-    background: url(./imag/servicios2.jpg);
+    background: url(../imag/servicios2.jpg);
     background-size: 100%;
     height: 100%;
     width: 100%;
@@ -191,7 +191,7 @@
 .main__contacto{
     display: flex;
     justify-content: center;
-    background-image: url(./imag/puños.jpg);
+    background-image: url(../imag/puños.jpg);
     background-repeat: repeat;
     background-size: 100%;
     width: 100%;

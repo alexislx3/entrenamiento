@@ -1,0 +1,22 @@
+{
+  "name": "entrenamiento.ayala",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexislx3/entrenamiento.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexislx3/entrenamiento/issues"
+  },
+  "homepage": "https://github.com/alexislx3/entrenamiento#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
