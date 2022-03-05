@@ -114,27 +114,19 @@
     line-height: 2; } }
 
 /***********************************************************nutricion****************************************************************************/
-.nutricion {
-  width: 100%;
-  display: flex;
-  background-color: tan; }
+.titulon{
+  color: black;
+}
+.texton{
+  color: black;
+}
+.accordion-button{
+  background-color: orangered !important;
+}
+.accordion-body{
+  background-color: orange;
+}
 
-.card1 {
-  width: 100%;
-  margin-top: 10px;
-  margin-left: 1px;
-  overflow: hidden;
-  background: lightslategrey; }
-  .card1 img {
-    width: 100%;
-    height: 280px; }
-
-.contenidon h3 {
-  text-align: center; }
-  .contenidon h3 p {
-    text-align: justify;
-    margin: 0;
-    padding: 0; }
 
 /***********************************************************pie de pag***********************************/
 .pie {
